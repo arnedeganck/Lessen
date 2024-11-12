@@ -64,35 +64,7 @@ Je gaat een "Raad het getal"-spel maken waarbij de gebruiker een willekeurig gek
     <p id="resultaat"></p>
 
     <script>
-        function startSpel() {
-            const geheimGetal = Math.floor(Math.random() * 100) + 1;
-            let pogingen = 5;
 
-            while (pogingen > 0) {
-                const gok = parseInt(document.getElementById("guess").value);
-
-                if (isNaN(gok) || gok < 1 || gok > 100) {
-                    document.getElementById("resultaat").innerText = "Voer een geldig getal in tussen 1 en 100.";
-                    return;
-                }
-
-                if (gok === geheimGetal) {
-                    document.getElementById("resultaat").innerText = "Gefeliciteerd! Je hebt het juiste getal geraden!";
-                    return;
-                } else if (gok < geheimGetal) {
-                    document.getElementById("resultaat").innerText = "Te laag! Probeer opnieuw.";
-                } else {
-                    document.getElementById("resultaat").innerText = "Te hoog! Probeer opnieuw.";
-                }
-
-                pogingen--;
-                if (pogingen > 0) {
-                    document.getElementById("resultaat").innerText += ` Je hebt nog ${pogingen} pogingen over.`;
-                } else {
-                    document.getElementById("resultaat").innerText = `Helaas, je hebt geen pogingen meer. Het juiste getal was ${geheimGetal}.`;
-                }
-            }
-        }
     </script>
 </body>
 </html>
