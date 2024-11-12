@@ -71,6 +71,7 @@ Je gaat een "Raad het getal"-spel maken waarbij de gebruiker een willekeurig gek
 ```
 # ZELFEVALUATIE 04
 **Doel:** Een spel maken waarin de gebruiker meerdere pogingen krijgt om een getal te raden met duidelijke feedback na elke poging.
+
 [Doe de evaluatie](https://www.bookwidgets.com/play/lNqsk3Do-iQAECkl7tgAAA/8F5EC87/javascript-zelf?teacher_id=5497162193436672)
 
 | **Criteria**                            | **Beoordeling (1-5)** | **Opmerkingen**                         |
