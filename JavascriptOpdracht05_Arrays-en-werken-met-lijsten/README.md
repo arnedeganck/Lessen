@@ -59,33 +59,7 @@ Je gaat een interactieve boodschappenlijst maken waarin je nieuwe items kunt toe
     <ul id="boodschappenlijst"></ul>
 
     <script>
-        const lijst = [];
 
-        function voegItemToe() {
-            const item = document.getElementById("item").value;
-            if (item) {
-                lijst.push(item);
-                toonLijst();
-                document.getElementById("item").value = "";
-            } else {
-                alert("Voer een geldig item in.");
-            }
-        }
-
-        function verwijderLaatsteItem() {
-            lijst.pop();
-            toonLijst();
-        }
-
-        function toonLijst() {
-            const lijstElement = document.getElementById("boodschappenlijst");
-            lijstElement.innerHTML = "";
-            lijst.forEach(item => {
-                const li = document.createElement("li");
-                li.textContent = item;
-                lijstElement.appendChild(li);
-            });
-        }
     </script>
 </body>
 </html>
