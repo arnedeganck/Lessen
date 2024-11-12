@@ -67,6 +67,8 @@ Je gaat een interactieve boodschappenlijst maken waarin je nieuwe items kunt toe
 # ZELFEVALUATIE 05
 **Doel:** Een interactieve boodschappenlijst maken waarin de gebruiker items kan toevoegen en verwijderen met behulp van arrays.
 
+### [Doe de evaluatie](https://www.bookwidgets.com/play/27dBig4W-iQAE81B_tgAAA/GF5XBG7/javascript-zelf?teacher_id=5497162193436672)
+
 | **Criteria**                            | **Beoordeling (1-5)** | **Opmerkingen**                         |
 |-----------------------------------------|------------------------|-----------------------------------------|
 | **Gebruik van arrays**                  |                        | Zijn arrays correct toegepast?          |
